@@ -9,12 +9,12 @@ public class MeshFactory {
     
     public static Mesh createCube() {
         return createCube(
-            new Vector3f(0.988f, 0.663f, 0.522f),
-            new Vector3f(0.522f, 0.792f, 0.365f),
-            new Vector3f(0.459f, 0.537f, 0.749f),
-            new Vector3f(0.976f, 0.549f, 0.714f),
-            new Vector3f(0.647f, 0.537f, 0.757f),
-            new Vector3f(0.753f, 0.729f, 0.600f)
+            new Vector3f(1.0f, 0.0f, 0.0f),
+            new Vector3f(0.0f, 0.0f, 1.0f),
+            new Vector3f(0.0f, 1.0f, 0.0f),
+            new Vector3f(0.5f, 0.0f, 0.5f),
+            new Vector3f(0.5f, 0.5f, 0.5f),
+            new Vector3f(0.5f, 0.5f, 1.0f)
         );
     }   
     
