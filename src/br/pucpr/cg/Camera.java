@@ -12,7 +12,6 @@ import static org.lwjgl.glfw.GLFW.glfwGetWindowSize;
 
 
 public class Camera {
-    int focalDistance = 3;
     private Vector3f position = new Vector3f(0, 0, 2);
     private Vector3f up = new Vector3f(0, 1, 0);
     private Vector3f direction = new Vector3f(0, 0, -1);
@@ -58,9 +57,9 @@ public class Camera {
         position.add(dirCopy);
     }
 
-    public void moveFront(float vel){
+    public void moveFront(float distance){
         Vector3f dirCopy = new Vector3f(direction);
-        dirCopy.normalize().mul(vel);
+        dirCopy.normalize().mul(distance);
         position.add(dirCopy);
     }
 
