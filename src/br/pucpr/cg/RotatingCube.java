@@ -10,6 +10,8 @@ import br.pucpr.mage.Scene;
 import br.pucpr.mage.Window;
 import org.joml.Vector3f;
 
+/* Projeto com as atividades 4 5 e 7*/
+
 public class RotatingCube implements Scene {
     private Keyboard keys = Keyboard.getInstance();
     

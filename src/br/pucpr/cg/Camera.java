@@ -10,9 +10,7 @@ import java.nio.IntBuffer;
 import static org.lwjgl.glfw.GLFW.glfwGetCurrentContext;
 import static org.lwjgl.glfw.GLFW.glfwGetWindowSize;
 
-/**
- * Created by Ian Quint Leisner on 5/8/2017.
- */
+
 public class Camera {
     int focalDistance = 3;
     private Vector3f position = new Vector3f(0, 0, 2);
